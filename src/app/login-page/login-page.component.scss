@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  padding: 8px;
+  flex-direction: row;
+  justify-content: space-around;
+  mat-card {
+    width: 33%;
+    padding: 0 !important;
+    //background-image: url('./../img/loginTitleBG.png');
+    md-card-title {
+      background-color: dodgerblue;
+    }
+  }
+}
+form {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
